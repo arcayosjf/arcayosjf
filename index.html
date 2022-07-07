@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Franklyn Arcayos</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ef1571087b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div id="logo">Jhon</div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#certificates">Certificates</a>
+            <a href="#contact">Contact</a>
+            <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+        </nav>
+        <div id="dropdown">
+            <a href="#home" onclick="closeMenu()">Home</a>
+            <a href="#about" onclick="closeMenu()">About Me</a>
+            <a href="#certificates" onclick="closeMenu()">Certificates</a>
+            <a href="#contact" onclick="closeMenu()">Contact</a>
+            <span onclick="closeMenu()">Close<i class="fa-solid fa-xmark"></i></span>
+        </div>
+    </header>
+    <section id="home">
+        <div id="intro-wrapper">
+            <div id="image">
+                <img src="assets/myphoto.jpg" alt="">
+            </div>
+            <div id="message">
+                <h1>Im John <span>Franklyn</span> Arcayos</h1>
+                <h5>A CS Student and a Dancer</h5>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div id="about-wrapper">
+            <img src="assets/myphoto-about.jpg" alt="">
+                <div id="details">
+                    <div id="education">
+                        <h2>Education</h2>
+                        <p>
+                            I am currently enrolled in my 3rd year of Computer Science
+                            at Bohol Island State University  - Clarin Campus. I completed
+                            my elementary years at Bonbon Elementary School, my junior high
+                            school at Clarin National School of Fisheries and my senior high
+                            school years at Salus Institute of Technology in Tubigon, Bohol.
+                        </p>
+                    </div>
+                    <div id="skills">
+                        <h2>Skills</h2>
+                        <p>
+                            Aside from being a Computer Science student, I also love dancing
+                            as it is my lifelong passion. I enjoy dancing because it makes me
+                            active and it also serves as my physical exercise. It also makes
+                            me forget all my problems and just swag with my groupmates.
+                        </p>
+                    </div>
+                </div>
+            <img src="assets/myphoto-dance.jpg" alt="">
+        </div>
+    </section>
+    <section id="certificates">
+        <div class="cert-container">
+            <div class="heading">
+                <h1>Sololearn Certificates</h1>
+                <p>
+                    In this year of my Computer Science course, we have tackled a lot about
+                    web development and have completed some online courses majority from
+                    sololearn. Here are some of those.
+                </p>
+            </div>
+            <div class="cert-gallery">
+                <div class="certificate-item">
+                    <img class="cert-image" src="assets/html.jpg">
+                </div>
+                <div class="certificate-item">
+                    <img class="cert-image" src="assets/css.jpg">
+                </div>
+                <div class="certificate-item">
+                    <img class="cert-image" src="assets/javascript.png">
+                </div>
+                <div class="certificate-item">
+                    <img class="cert-image" src="assets/responsive.jpg">
+                </div>
+                <div class="certificate-item">
+                    <img class="cert-image" src="assets/web-fundamentals.jpg">
+                </div>
+                <div class="certificate-item">
+                    <img class="cert-image" src="assets/php.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div id="contact-wrapper">
+            <h1>Wanna See Me Swag?</h1>
+            <h4>Visit my social media accounts</h4>
+            <div id="media">
+                <div id="facebok">
+                    <a href="https://web.facebook.com/FrnklnYu">
+                        <img src="assets/facebook.jpg" alt="">
+                    </a>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <span>facebook</span>
+                </div>
+                <div id="twitter">
+                    <a href="https://twitter.com/frnklnyu">
+                        <img src="assets/twitter.jpg" alt="">
+                    </a>
+                    <i class="fa-brands fa-twitter"></i>
+                    <span>twitter</span>
+                </div>
+                <div id="instagram">
+                    <a href="https://www.instagram.com/jhn.frnkln/?hl=en">
+                        <img src="assets/insta.jpg" alt="">
+                    </a>
+                    <i class="fa-brands fa-instagram"></i>
+                    <span>instagram</span>
+                </div>
+            </div>
+            <h4>My Personal Information</h4>
+            <div class="details">
+                <div id="address">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>Bonbon, Clarin, <br> Bohol</span>
+                </div>
+                <div id="email">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>johnfrnkln.arcys@bisu <br> .edu.ph</span>
+                </div>
+                <div id="number">
+                    <i class="fa-solid fa-phone-flip"></i>
+                    <span>09508842059</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
